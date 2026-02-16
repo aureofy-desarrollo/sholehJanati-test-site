@@ -15,12 +15,11 @@ export function Hero() {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1, ease: "easeOut" }}
             className="relative z-10 aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl shadow-purple-900/20"
-            style={{ backgroundColor: 'var(--brand-lighter)' }}
           >
             <img
               src={heroImage}
               alt="Sholeh Janati in Studio"
-              className="w-full h-full object-contain object-bottom"
+              className="w-full h-full object-cover object-bottom"
             />
 
             {/* Grain Overlay */}
