@@ -20,7 +20,7 @@ export function Hero() {
             <img
               src={heroImage}
               alt="Sholeh Janati in Studio"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain object-bottom"
             />
 
             {/* Grain Overlay */}
@@ -56,14 +56,13 @@ export function Hero() {
 
             <h1 className="text-5xl lg:text-7xl font-serif text-slate-900 leading-[1.1] mb-4">
               I am{" "}
-              <span className="italic relative inline-block" style={{ color: 'var(--brand)' }}>
+              <span className="italic relative inline-block text-black">
                 Sholeh.
                 <motion.svg
                   initial={{ pathLength: 0 }}
                   animate={{ pathLength: 1 }}
                   transition={{ delay: 1, duration: 1.5, ease: "easeInOut" }}
-                  className="absolute -bottom-1 left-0 w-full h-2 pointer-events-none"
-                  style={{ color: 'var(--brand-lighter)' }}
+                  className="absolute -bottom-1 left-0 w-full h-2 pointer-events-none text-black"
                   viewBox="0 0 100 10"
                   preserveAspectRatio="none"
                 >

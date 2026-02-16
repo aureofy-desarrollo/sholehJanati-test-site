@@ -17,7 +17,7 @@ export function LinksSection() {
     {
       title: "Wear SholehArtwear",
       category: "Fashion",
-      url: "https://sholeh.store",
+      url: "https://sholehart.printful.me/",
       image: artwearImage,
     },
     {
@@ -54,7 +54,7 @@ export function LinksSection() {
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
         <div>
           <h2 className="text-4xl lg:text-5xl font-serif text-slate-900 mb-0">
-            More About Me
+            Things I Will Do For You
           </h2>
         </div>
       </div>
